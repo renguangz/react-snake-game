@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { BoardGame } from "@/components";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <BoardGame />
+    </main>
+  );
 }
